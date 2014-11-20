@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+	<!-- Start of Brightcove Player -->
+
+	<div style="display:none">
+
+	</div>
+
+	<!--
+	By use of this code snippet, I agree to the Brightcove Publisher T and C 
+	found at https://accounts.brightcove.com/en/terms-and-conditions/. 
+	-->
+
+	<script language="JavaScript" type="text/javascript" src="http://admin.brightcove.com/js/BrightcoveExperiences.js"></script>
+
+	<object id="myExperience3860722320001" class="BrightcoveExperience">
+	  <param name="bgcolor" value="#FFFFFF" />
+	  <param name="width" value="480" />
+	  <param name="height" value="270" />
+	  <param name="playerID" value="3884732298001" />
+	  <param name="playerKey" value="AQ~~,AAACfwQNv4E~,z07__MP400v9HE5HmkoeYnSj82CRiljx" />
+	  <param name="isVid" value="true" />
+	  <param name="isUI" value="true" />
+	  <param name="dynamicStreaming" value="true" />
+	  
+	  <param name="@videoPlayer" value="3860722320001" />
+	</object>
+
+	<!-- 
+	This script tag will cause the Brightcove Players defined above it to be created as soon
+	as the line is read by the browser. If you wish to have the player instantiated only after
+	the rest of the HTML is processed and the page load is complete, remove the line.
+	-->
+	<script type="text/javascript">brightcove.createExperiences();</script>
+
+	<!-- End of Brightcove Player -->
+</body>
+</html>
