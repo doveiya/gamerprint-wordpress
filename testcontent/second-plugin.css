@@ -1,0 +1,54 @@
+.vjs-mouse.vjs-has-started.vjs-user-inactive .vjs-control-bar {
+	-webkit-transform: translateY(-33px) !important;
+	-moz-transform: translateY(-33px) !important;
+	-ms-transform: translateY(-33px) !important;
+}
+.vjs-mouse .vjs-control{
+	width:30px;
+}	
+.vjs-big-play-button {
+	display:none;
+}
+.vjs-control-bar {
+	top:0;
+	bottom:auto !important;
+	background-color: rgba(0, 0, 0, 0) !important;
+	border-top: medium none rgba(0, 0, 0, 0) !important;
+	height:20px !important;
+	line-height:20px !important;
+}	
+.vjs-fullscreen-control.vjs-control{
+	display:none;
+}	
+.vjs-current-time.vjs-time-controls.vjs-control{
+	display:none;
+}
+.vjs-time-divider{
+	display:none;
+}
+.vjs-duration.vjs-time-controls.vjs-control{
+	display:none;
+}
+.vjs-progress-control.vjs-control{
+	visibility:hidden;
+}
+.vjs-volume-menu-button.vjs-menu-button.vjs-control{
+	color: white;
+}	
+.vjs-play-control.vjs-control{
+	order: 6;
+	color: white;
+}	
+.vjs-volume-bar {
+	-webkit-transform: translate(-150px, -5px);
+	-moz-transform: translate(-150px, -5px);
+	-ms-transform: translate(-150px, -5px);
+}		
+
+.vjs-control.vjs-menu-button.vjs-link-button{
+	height:20px;
+	width:21px;
+	order:1;
+	background-color: white;
+	background-image: url('http://gamerprint.net/testcontent/linkButtonSkin.png');
+}

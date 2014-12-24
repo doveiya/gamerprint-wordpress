@@ -1,7 +1,14 @@
-videojs.plugin('firstPlugin', function() {
-  var player = this,
-    overlay = document.createElement('p');
-  overlay.className = 'vjs-overlay';
-  overlay.innerHTML = "First Plugin Changed!";
-  player.el().appendChild(overlay);
+videojs.plugin('firstPlugin', function() {  
+	var player = this;
+	
+	var myFunc = function(event) {	
+		var player = this;
+		window.open('http://laprairie.com/');
+	};
+	
+	var myButton = player.controlBar.addChild('button');
+	
+	myButton.addClass('vjs-menu-button');
+	myButton.addClass('myLinkButton');			
+	myButton.on("click", myFunc);
 });
